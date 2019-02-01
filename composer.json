@@ -1,0 +1,36 @@
+{
+    "name": "miniphp/mini-installer",
+    "type": "composer-plugin",
+    "description": "The Miniphp Mini-Installer package.",
+    "keywords": [
+        "composer-plugin",
+        "miniphp",
+        "plugin"
+    ],
+    "license": "MIT",
+    "homepage": "http://blog.gerrywen.com",
+    "support": {
+        "issues": "https://github.com/GLWen/miniphp-mini-installer/issues",
+        "source": "https://github.com/GLWen/miniphp-mini-installer"
+    },
+    "authors": [
+        {
+            "name": "GerryWen",
+            "email": "blog@gerrywen.com"
+        }
+    ],
+    "require": {
+        "composer-plugin-api": "^1.0"
+    },
+    "require-dev": {
+        "composer/composer": "1.0.*@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "think\\composer\\": "src"
+        }
+    },
+    "extra": {
+        "class": "think\\composer\\Plugin"
+    }
+}
